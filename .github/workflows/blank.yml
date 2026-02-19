@@ -1,9 +1,10 @@
+name: "Automation of docs"
    on:
       push:
         branches:
-          - main
+          - ["main"]
         paths:
-          - "docs/**"
+          - ["docs/**"]
     permissions:
       contents: write
       pages: write
