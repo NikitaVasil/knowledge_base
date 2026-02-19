@@ -1,4 +1,4 @@
-name: "Automation of docs"
+name: ["Automation of docs"]
    on:
       push:
         branches:
