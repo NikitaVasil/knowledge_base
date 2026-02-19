@@ -1,0 +1,41 @@
+/* Кастомные стили */
+
+/* Увеличение ширины контента */
+.md-grid {
+  max-width: 1440px;
+}
+
+/* Кастомные блоки */
+.custom-info {
+  border-left: 4px solid #2196f3;
+  background-color: #e3f2fd;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+/* Подсветка кода */
+.highlight .hll {
+  background-color: #ffc;
+}
+
+/* Адаптивные таблицы */
+.md-typeset table:not([class]) {
+  display: table;
+}
+
+/* Улучшение типографики */
+.md-typeset {
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.md-typeset h1 {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.5rem;
+}

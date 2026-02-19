@@ -1,7 +1,7 @@
 site_name: База знаний
 site_description: Инструмент, предназначенный для сбора, организации и распространения информации
 site_author: Васильняк Никита
-repo_url: https://github.com/NikitaVasil/report_docs-as-code
+repo_url: https://github.com/NikitaVasil/knowledge_base
 repo_name: NikitaVasil/knowledge_base
 
 # Copyright в футере
