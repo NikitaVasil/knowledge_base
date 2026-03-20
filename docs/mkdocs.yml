@@ -10,31 +10,44 @@ copyright: Copyright &copy; 2026 <br> <a href="https://t.me/nikita_vasilnyak"> <
 nav:
   - Главная: index.md
   - Нормативная правовая база:
-      - Оценка соответствия: regulatory/conformAssess/conform.md
-      - Проекты ФЗ и ПП РФ: regulatory/draftFL/draftFL.md
-      - Предложения в ГОСТ Р: regulatory/offersInGost/offInGost.md
+      - Оценка соответствия: regulatory/conformAssess/index.md
+      - Нормативные правовые акты: regulatory/draftFL/index.md
+      - Стандартизация: regulatory/offersInGost/index.md
       - Экспериментально-правовой режим: ff.md
   - Библиотека стандартов:
-      - ЕСКД: eskd/gostSerial2.md
-      - ЕСПД: espd/gostSerial19.md
-  - Техническая часть: changelog.md
+      - ЕСКД: eskd/index.md
+      - ЕСПД: espd/index.md
+  - Техническая часть:
+      - Сетевая модель OSI: part-tech/osi/index.md
+      - Базы данных: part-tech/data-base/index.md
 
 theme:
   name: material
+  font:
+    text: Roboto # Шрифт текста
+    code: Roboto Mono # Шрифт для текста кода
+
   language: ru
-  palette:
+  palette: # Настройки светлой и тёмной тем
+    # Настройки светлой темы
     - scheme: default
-      primary: indigo
-      accent: indigo
       toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+        icon: material/weather-sunny # Иконка для активации светлой темы
+        name: Выключить солнышко # Всплывающий текст-подсказка
+      primary: blue grey # Основной цвет
+      accent: red # Акцентный цвет
+      # вы можете использовать любой цвет из списка:
+      # red; pink; purple; deep purple; indigo; blue; light blue; cyan; teal;
+      # green; light green; lime; yellow; amber; orange; deep orange; brown;
+      # grey; blue grey; black; white
+
+    # Настройки тёмной темы
     - scheme: slate
-      primary: indigo
-      accent: indigo
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: material/weather-night
+        name: Позвать солнышко
+      primary: blue grey
+      accent: red
 
 markdown_extensions:
   - admonition
@@ -48,6 +61,10 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.details
+  - pymdownx.blocks.caption
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
   generator: false # Убирает "Made with MkDocs"
@@ -62,3 +79,4 @@ plugins:
   - search
   - mkdocstrings
   - mkdocs-pdf
+  - glightbox
