@@ -13,7 +13,7 @@ nav:
       - Оценка соответствия: regulatory/conformAssess/index.md
       - Нормативные правовые акты: regulatory/draftFL/index.md
       - Стандартизация: regulatory/offersInGost/index.md
-      - Экспериментально-правовой режим: ff.md
+      - Экспериментально-правовой режим: regulatory/epr/index.md
   - Библиотека стандартов:
       - ЕСКД: eskd/index.md
       - ЕСПД: espd/index.md
