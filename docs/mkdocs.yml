@@ -78,5 +78,4 @@ extra_javascript:
 plugins:
   - search
   - mkdocstrings
-  - mkdocs-pdf
   - glightbox
