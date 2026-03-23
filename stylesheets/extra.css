@@ -1,5 +1,17 @@
 /* Кастомные стили */
 
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #04859D; /*Основной цвет*/
+  --md-accent-fg-color: #37B6CE; /*Акцентный цвет*/
+  --md-typeset-a-color: #015666; /*Цвет ссылок*/
+  --md-default-bg-color: #f0f8ff; /*Фоновый цвет*/
+  --md-footer-bg-color: #04859D; /* Цвет футтера */
+  --md-default-fg-color: #353535; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
+  --md-code-bg-color: #ffffff; /*Цвет фона блока кода*/
+  --md-code-fg-color: #5c5b5b; /*Цвет текста в блоке кода*/
+  --md-default-fg-color--light: #4e4d4d; /*Цвет h1 и заголовков блоков toc и nav*/
+}
+
 /* Увеличение ширины контента */
 .md-grid {
   max-width: 1440px;
@@ -24,18 +36,17 @@
   display: table;
 }
 
-/* Улучшение типографики */
+/*Параметры текста статей*/
 .md-typeset {
-  font-size: 0.8rem;
-  line-height: 1.6;
+    font-family: 'Tahoma', 'arial';
+    font-weight: 200;
+    font-size: 16px;
+    color: #4b5563;
 }
-
-.md-typeset h1 {
-  font-weight: 600;
-  color: var(--md-primary-fg-color);
-}
-
-.md-typeset h2 {
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  padding-bottom: 0.5rem;
+/*Параметры текста nav и toc*/
+.md-nav {
+    font-family: 'Tahoma', 'arial';
+    font-weight: 400;
+    font-size: 16px;
+    color: #4b5563;
 }
