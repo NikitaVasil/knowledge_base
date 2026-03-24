@@ -20,6 +20,7 @@ nav:
   - Техническая часть:
       - Сетевая модель OSI: part-tech/osi/index.md
       - Базы данных: part-tech/data-base/index.md
+      - Архитектура ОС: part-tech/os-arch/index.md
 
 theme:
   name: material
